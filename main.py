@@ -64,7 +64,7 @@ try :
             shutil.move(f"{loc}/{x4}", f"{loc}/apps/{x4}")
     if os.path.isdir(f"{loc}/audios") : 
         for x5 in audfold : 
-            shutil.move(f"{loc}/{x5}", f"{loc}/extras/{x5}")
+            shutil.move(f"{loc}/{x5}", f"{loc}/audios/{x5}")
     if os.path.isdir(f"{loc}/extras") : 
         for x6 in extrasfold : 
             shutil.move(f"{loc}/{x6}", f"{loc}/extras/{x6}")
